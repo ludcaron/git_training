@@ -13,10 +13,10 @@ section {
                          "nav nav"
                          "aside main"
                          "footer footer";
-  grid-template-rows: 50px 1fr 50px;
-  grid-template-rows: 50px 30px 1fr 30px;
-  grid-template-columns: 1fr 4fr;
+    grid-template-rows: 80px 30px 1fr 30px;
+    grid-template-columns: 1fr 4fr;
 }
+
 /* header */
 header {
     grid-area: head;
@@ -24,7 +24,6 @@ header {
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    height: 50px;
 }
 header img {
     width : 100px;
@@ -35,6 +34,21 @@ header img {
 nav {
     grid-area: nav;
     background-color: burlywood;
+}
+
+nav ul {
+    /* text-decoration: none; */
+    margin: 0;
+    padding: 5px 10px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+nav ul li {
+    margin-right: 10px;
 }
 
 /* aside */
