@@ -1,3 +1,3 @@
 la première ligne modifiée
-la deuxième ligne
-la troisième ligne
+la deuxième ligne ne bouge pas
+la troisième ligne je ne sais plus quoi faire
