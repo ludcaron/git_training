@@ -1,9 +1,25 @@
 /* Global */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+/* section */
+section {
+    display: grid;
+    width: 100%;
+    grid-template-areas: "head head"
+                         "nav nav"
+                         "aside main"
+                         "footer footer";
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-rows: 50px 30px 1fr 30px;
+  grid-template-columns: 1fr 4fr;
 }
 /* header */
 header {
+    grid-area: head;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -14,10 +30,34 @@ header img {
     width : 100px;
     height : 46px;
 }
-/* content */
+
+/* nav */
+nav {
+    grid-area: nav;
+    background-color: burlywood;
+}
+
+/* aside */
+aside {
+    grid-area: aside;
+    padding: 10px;
+}
+
+/* main */
+main {
+    grid-area: main;
+    padding: 10px;
+
+}
 h1 {
     color: chocolate;
     margin-left: 20px;
     font-size: 36px;
     font-weight: normal;
+}
+
+/* footer */
+footer {
+    grid-area: footer;
+    background-color: bisque;
 }
