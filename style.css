@@ -1,3 +1,23 @@
+/* Global */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 50px;
+}
+header img {
+    width : 100px;
+    height : 46px;
+}
+/* content */
 h1 {
     color: chocolate;
+    margin-left: 20px;
+    font-size: 36px;
+    font-weight: normal;
 }
